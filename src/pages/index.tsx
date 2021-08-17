@@ -3,8 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { NextSeo } from "next-seo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 import { faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 import me from "../assets/cover_photo.jpg";
 
