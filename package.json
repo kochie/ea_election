@@ -19,6 +19,8 @@
     "@fortawesome/react-fontawesome": "^0.1.15",
     "@types/react": "^17.0.18",
     "autoprefixer": "^10.3.1",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.0",
     "next-seo": "^4.26.0",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7",

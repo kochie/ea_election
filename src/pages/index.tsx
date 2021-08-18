@@ -36,10 +36,10 @@ const Index = () => {
       />
       <div className="w-screen min-h-screen dark:bg-gray-800 bg-gray-100 dark:text-white">
         <div className="flex flex-col mx-auto items-center">
-          <div className="flex flex-col items-center max-w-screen-lg rounded-lg dark:bg-gray-500 bg-gray-200 p-10 shadow-2xl my-20">
-            <h1 className="text-3xl font-bold mb-2">Hi I'm Robert,</h1>
+          <div className="flex flex-col items-center max-w-screen-lg rounded-lg dark:bg-gray-500 bg-gray-200 p-14 shadow-2xl my-20 w-min">
+            <h1 className="text-3xl font-bold mb-2">Hi I&apos;m Robert,</h1>
             <h2 className="text-xl">
-              I'm running for the Victorian Division Committee at Engineers
+              I&apos;m running for the Victorian Division Committee at Engineers
               Australia
             </h2>
             <div className="my-10 flex w-3/5">
@@ -50,30 +50,31 @@ const Index = () => {
                 width={200}
                 objectFit="cover"
                 objectPosition="top"
+                alt="me"
               />
               <div className="flex justify-evenly p-5 flex-1 items-center">
-                <Link href="https://me.kochie.io">
+                <Link href="https://me.kochie.io" passHref>
                   <FontAwesomeIcon
                     icon={faGlobe}
                     size="2x"
                     className="cursor-pointer hover:text-green-500 transform-gpu duration-300"
                   />
                 </Link>
-                <Link href="mailto:robert@kochie.io">
+                <Link href="mailto:robert@kochie.io" passHref>
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     size="2x"
                     className="cursor-pointer hover:text-purple-500 transform-gpu duration-300"
                   />
                 </Link>
-                <Link href="https://twitter.com/kochie">
+                <Link href="https://twitter.com/kochie" passHref>
                   <FontAwesomeIcon
                     icon={faTwitter}
                     size="2x"
                     className="cursor-pointer hover:text-brand-twitter transform-gpu duration-300"
                   />
                 </Link>
-                <Link href="https://linkedin.com/in/rkkochie">
+                <Link href="https://linkedin.com/in/rkkochie" passHref>
                   <FontAwesomeIcon
                     icon={faLinkedin}
                     size="2x"
@@ -89,10 +90,10 @@ const Index = () => {
                 As an engineer working with the public sector, I want to empower
                 and accelerate the work being done by all engineers in Victoria.
                 I believe that getting involved is the best way to generate
-                enthusiasm and elevate others. As a software engineer, I've
+                enthusiasm and elevate others. As a software engineer, I&apos;ve
                 worked at innovative organisations, including Atlassian, and
-                Amazon, turning ideas into solutions, a trait that I'll bring to
-                the committee.
+                Amazon, turning ideas into solutions, a trait that I&apos;ll
+                bring to the committee.
               </p>
               <p className="my-3">
                 As a long-term committee member at UNIHACK Australia, I played a
@@ -100,7 +101,7 @@ const Index = () => {
                 a national organisation. As Vice President of the organisation,
                 I planned numerous large-scale events and fostered relationships
                 between industry, faculty, and students. As a member of the
-                Victorian committee, I'll leverage these relationships and
+                Victorian committee, I&apos;ll leverage these relationships and
                 skills to create opportunities for new and old members alike to
                 improve services in the Division and the wider industry.
               </p>
@@ -137,7 +138,7 @@ const Index = () => {
               <p className="my-3">
                 We have a unique opportunity in the coming years to dramatically
                 influence the industry’s response to issues like climate change,
-                and the covid recovery. I'll focus on those issues as a top
+                and the covid recovery. I&apos;ll focus on those issues as a top
                 priority.
               </p>
               <p className="my-3">
@@ -147,10 +148,10 @@ const Index = () => {
                 the horizon, the committee should use this opportunity to push
                 for better representation and renewed collaboration with
                 industry, government, and faculties to tackle lofty goals like
-                building diverse, sustainable industries. If elected, I'll use
-                my time in the position with the skills and resources I have to
-                realise this mandate, and use the reach and influence EA has to
-                improve the community and our world.
+                building diverse, sustainable industries. If elected, I&apos;ll
+                use my time in the position with the skills and resources I have
+                to realise this mandate, and use the reach and influence EA has
+                to improve the community and our world.
               </p>
             </div>
           </div>
