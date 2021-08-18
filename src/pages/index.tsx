@@ -24,6 +24,8 @@ const Index = () => {
             {
               url: "https://candidate.kochie.io/images/cover_photo.jpg",
               alt: "Robert Koch",
+              width: 1200,
+              height: 630,
             },
           ],
           site_name: "My Candidate Statement",
