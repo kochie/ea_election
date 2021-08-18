@@ -18,8 +18,7 @@ const Index = () => {
         openGraph={{
           url: "https://candidate.kochie.io",
           title: "Candidate Statement for Robert Koch",
-          description:
-            "I&apos;m Robert and I&apos;m running for a position on the Victorian division of Engineers Australia",
+          description: `I\'m Robert and I\'m running for a position on the Victorian division of Engineers Australia`,
           images: [
             {
               url: "https://candidate.kochie.io/images/cover_photo.jpg",
